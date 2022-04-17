@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+       <pattern># BUSINESS OF IT ^</pattern>
+       <template>Awesome. Which of the following would you say is one of your biggest strengths?
+           <button>
+               <text>Creative Thinking</text>
+               <postback>creativethinking</postback>
+           </button>
+           <button>
+               <text>Scripting Languages</text>
+               <postback>scriptinglanguages</postback>
+           </button>
+       </template>
+   </category>
+   
+    <category>
+        <pattern>creativethinking</pattern>
+        <template>You might be a great match for a career in Cyber Security.</template>
+    </category>
+    <category>
+        <pattern>scriptinglanguages</pattern>
+        <template>You would be a good fit for a career as a Systems Analyst.</template>
+    </category>
+</aiml>

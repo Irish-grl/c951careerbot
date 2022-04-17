@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+       <pattern># DATA ^</pattern>
+       <template>Awesome. Which of the following would you say is one of your biggest strengths?
+           <button>
+               <text>Database Normalization</text>
+               <postback>databasenormalization</postback>
+           </button>
+           <button>
+               <text>Logic</text>
+               <postback>logic</postback>
+           </button>
+       </template>
+   </category>
+   
+    <category>
+        <pattern>databasenormalization</pattern>
+        <template>You might be a great match for a career in Database Engineer.</template>
+    </category>
+    <category>
+        <pattern>logic</pattern>
+        <template>You would be a good fit for a career as a Database Engineer.</template>
+    </category>
+</aiml>

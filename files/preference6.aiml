@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+       <pattern>SOFTWARE ^</pattern>
+       <template>Awesome. Which of the following would you say is one of your biggest strengths?
+           <button>
+               <text>Critical Thinking</text>
+               <postback>criticalthinking</postback>
+           </button>
+           <button>
+               <text>Search Engine Optimization</text>
+               <postback>searchengineoptimization</postback>
+           </button>
+       </template>
+    </category>
+   
+    <category>
+        <pattern>criticalthinking</pattern>
+        <template>You might be a great match for a career in Software Engineering.</template>
+    </category>
+    <category>
+        <pattern>searchengineoptimization</pattern>
+        <template>You would be a good fit for a career as a Web Developer.</template>
+    </category>
+</aiml>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+       <pattern># WEB ^</pattern>
+       <template>Awesome. Which of the following would you say is one of your biggest strengths?
+           <button>
+               <text>Interpersonal Skills</text>
+               <postback>interpersonalskills</postback>
+           </button>
+           <button>
+               <text>Continuous Learning</text>
+               <postback>continuouslearning</postback>
+           </button>
+       </template>
+   </category>
+   
+    <category>
+        <pattern>interpersonalskills</pattern>
+        <template>You might be a great match for a career in Web Development.</template>
+    </category>
+    <category>
+        <pattern>continuouslearning</pattern>
+        <template>You would be a good fit for a career as a Software Engineer.</template>
+    </category>
+</aiml>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+   <category>
+       <pattern># NETWORKING ^</pattern>
+       <template>
+           Awesome. Which one of the following is a top strength for you? 
+       <button>
+           <text>Information Security</text>
+           <postback>informationsecurity</postback>
+       </button>
+       <button>
+           <text>Operating Systems</text>
+           <postback>operatingsystems</postback>
+       </button>
+       </template>
+   </category>
+   
+   <category>
+        <pattern>informationsecurity</pattern>
+        <template>
+         My career recommendation for you would be Cyber Security Engineer.
+        </template>
+    </category>
+    <category>
+        <pattern>operatingsystems</pattern>
+        <template>
+            My career recommendation for you would be System Analyst.
+        </template>
+    </category>
+</aiml>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+       <pattern>SOFTWARE QUALITY ^</pattern>
+       <template>Awesome. Which of the following would you say is one of your biggest strengths?
+           <button>
+               <text>Javascript</text>
+               <postback>javascript</postback>
+           </button>
+           <button>
+               <text>Teamwork</text>
+               <postback>teamwork</postback>
+           </button>
+       </template>
+    </category>
+   
+    <category>
+        <pattern>javascript</pattern>
+        <template>You might be a great match for a career in Web Development.</template>
+    </category>
+    <category>
+        <pattern>teamwork</pattern>
+        <template>You would be a good fit for a career as a Software Engineer.</template>
+    </category>
+</aiml>
